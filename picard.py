@@ -7,6 +7,7 @@ class picard:
 		self.basecalls_dir = 'BASECALLS_DIR=/home/D131748/Illumina/%s/Data/Intensities/BaseCalls' % basecall
 		self.tmp_dir = 'TMP_DIR=/data/scratch'
 		self.read_structure = 'READ_STRUCTURE=151T6B151T'
+		#self.read_structure = 'READ_STRUCTURE=76T6B76T'
 		self.lane = 'LANE=1'
 		self.validation_stringency = 'VALIDATION_STRINGENCY=SILENT'
 		self.compression_level = 'COMPRESSION_LEVEL=1'
